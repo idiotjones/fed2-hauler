@@ -3,12 +3,18 @@ from datetime import datetime
 import time
 import sys
 import random
+import re
+import pytz
 
 def buy_7_loads(commodity):
 	return ['buy {commodity}'.format(commodity=commodity) for x in range(7)]
 
 def sell_7_loads(commodity):
 	return ['sell {commodity}'.format(commodity=commodity) for x in range(7)]
+
+def is_exchange_output_line(line):
+	commodity_line_pattern = '''\s+\w+:\s+value\s+\d+ig/ton\s+Spread:\s+\d+%\s+Stock:\s+current\s+-?\d+/min\s+\d+/max\s+\d+\s+Efficiency:\s+\d+%'''
+	return not (re.match(commodity_line_pattern, line) is None)
 
 class fed_connection:
 	def __init__(self, user, password, start_loc):
@@ -32,7 +38,7 @@ class fed_connection:
 		lines = exchange_output.splitlines()
 		deficits = []
 		for line in lines:
-			if "-525" in line:
+			if "-525" in line and is_exchange_output_line(line):
 				deficits.append(line)
 		return deficits
 
@@ -41,7 +47,7 @@ class fed_connection:
 		time.sleep(1)
 		output = self.read_next_output()
 		if True:
-			current_time = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+			current_time = datetime.now(tz=pytz.timezone('Europe/London')).strftime("%Y-%m-%d %H:%M:%S")
 			print """[{timestamp}]""".format(timestamp=current_time)
 			print """{output}""".format(output=output)
 		return output
@@ -178,10 +184,10 @@ class fed_connection:
 
 	def check_time_and_sleep(self, sleep_seconds):
 		# If we're too close to reset then don't bother sleeping; just go to interactive mode and wait for reset.
-		current_time = datetime.utcnow()
+		current_time = datetime.now(tz=pytz.timezone('Europe/London'))
 		current_hour = current_time.hour
 		current_minute = current_time.minute
-		if 11 == current_hour and current_minute > 35:
+		if 12 == current_hour and current_minute > 35:
 			self.send_command("say Close to reset; going to interactive mode to wait it out until the connection is killed.")
 			self.interact()
 			sys.exit()

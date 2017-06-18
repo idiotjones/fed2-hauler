@@ -1,11 +1,19 @@
 from planet import planet
 all_planets = {
-	'improbable': planet('improbable', 'shell', 'darkness', 'Improbable Landing Pad', ['out'], ['in'], ['w'], ['e'], [], []),
-	'unlikely': planet('unlikely', 'shell', 'darkness', 'Unlikely Landing Pad', ['se', 'out'], ['in', 'nw'], ['w'], ['e'], [], []),
-	'doubtful': planet('doubtful', 'shell', 'darkness', 'Doubtful Landing Pad', ['sw'], ['ne'], ['w'], ['e'], [], []),
-	'wreck': planet('wreck', 'total', 'sol', 'Wreck currently has the layout', [], [], ['n'], ['s'], ['e'], ['w']),
-	'welch': planet('welch', 'default', 'sol', 'This is the hub of Welch;', [], [], ['e'], ['w'], ['sw'], ['ne']),
-	'herringbone': planet('herringbone', 'chevron', 'sol', 'Ice planet Herringbone', [], [], ['sw'], ['ne'], ['s'], ['n']),
+	'improbable': planet('improbable', 'shell', 'shell', 'Improbable Landing Pad', ['out'], ['in'], ['w'], ['e'], [], []),
+	'unlikely': planet('unlikely', 'shell', 'shell', 'Unlikely Landing Pad', ['se', 'out'], ['in', 'nw'], ['w'], ['e'], [], []),
+	'doubtful': planet('doubtful', 'shell', 'shell', 'Doubtful Landing Pad', ['sw'], ['ne'], ['w'], ['e'], [], []),
+
+	'welch': planet('welch', 'default', 'shell', 'This is the hub of Welch;', [], [], ['e'], ['w'], ['sw'], ['ne']),
+	'bilk': planet('bilk', 'default', 'shell', '', ['w'], ['e'], ['e'], ['w'], ['sw'], ['ne']),
+
+	'herringbone': planet('herringbone', 'chevron', 'shell', 'Ice planet Herringbone', [], [], ['sw'], ['ne'], ['s'], ['n']),
+
+	'wreck': planet('wreck', 'total', 'shell', 'Wreck currently has the layout', [], [], ['n'], ['s'], ['e'], ['w']),
+	'demolish': planet('demolish', 'total', 'shell', '...', ['w'], ['e'], ['n'], ['s'], ['e'], ['w']),
+	'crash': planet('crash', 'total', 'shell', '...', ['sw'], ['ne'], ['sw'], ['ne'], [''], ['']),
+
+	'divide': planet('divide', 'gulf', 'shell', 'Divide is currently just another Magrathea-built rock', [], [], ['s', 'w'], ['e', 'n'], ['s', 's'], ['n', 'n']),
 
 	'viand': planet('viand', 'darkness', 'darkness', '...', ['w'], ['e'], ['e', 'n'], ['s', 'w'], [], []),
 	'vivid': planet('vivid', 'darkness', 'darkness', '...', ['n', 'n'], ['s', 's'], ['in', 'wear sunglasses', 'w'], ['e', 's', 'out'], [], []),
@@ -19,4 +27,14 @@ all_planets = {
 
 	'helicon': planet('helicon', 'stars end', 'far star', '...', ['s'], ['n'], ['e'], ['w'], [], []),
 	'cinna': planet('cinna', 'stars end', 'far star', '...', [], [], ['e'], ['w'], [], []),
+	'eos': planet('eos', 'stars end', 'far star', '...', ['w'], ['e'], ['e'], ['w'], [], []),
+
+	'newsgroup': planet('newsgroup', 'internet', 'internet', '...', ['s'], ['n'], ['e'], ['w'], ['sw'], ['ne']),
+	
+	'maminar': planet('maminar', 'hof', 'ice', '...', ['e'], ['w'], ['s', 's', 's'], ['n', 'n', 'n'], ['s', 's', 's'], ['n', 'n', 'n']),
+	'vantek': planet('vantek', 'hof', 'ice', '...', ['sw'], ['ne'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u']),
+
+	'new street glide': planet('new street glide', 'bikes', 'ice', 'New Street Glide', [], [], ['n'], ['s'], ['e'], ['w']),
+
+	'valisk': planet('valisk', 'ombey', 'havefun', '...', [], [], ['s', 'e'], ['w', 'n'], ['w'], ['e']),
 	}
