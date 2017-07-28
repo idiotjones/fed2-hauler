@@ -48,7 +48,7 @@ shell_commodity_sources = {
 		'Powerpacks': [pl.all_planets['doubtful'], pl.all_planets['improbable']],
 		'Probes': [pl.all_planets['doubtful']],
 		'Propellants': [pl.all_planets['doubtful'], pl.all_planets['anacreon']], # pl.all_planets['new street glide']],
-		'Proteins': [pl.all_planets['viand'], pl.all_planets['ultra limited']],
+		'Proteins': [pl.all_planets['viand']],
 		'Radioactives': [pl.all_planets['doubtful'], pl.all_planets['valisk'], pl.all_planets['welch'], pl.all_planets['divide']], # , pl.all_planets['new street glide']
 		'RNA': [pl.all_planets['doubtful']],
 		'Semiconductors': [pl.all_planets['terminus'], pl.all_planets['doubtful']],
