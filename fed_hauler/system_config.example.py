@@ -61,14 +61,14 @@ shell_commodity_sources = {
 		'Synths': [pl.all_planets['doubtful']],
 		'Textiles': [pl.all_planets['santanni']], # pl.all_planets['new street glide']],
 		'Tools': [pl.all_planets['doubtful'], pl.all_planets['improbable'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
-		'ToxicMunchers': [pl.all_planets['doubtful']],
+		'ToxicMunchers': [pl.all_planets['doubtful'], pl.all_planets['poveglia']],
 		'TQuarks': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish']],
 		'Tracers': [pl.all_planets['viand'], pl.all_planets['crash']],
 		'Univators': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'Vidicasters': [pl.all_planets['unlikely'], pl.all_planets['improbable'], pl.all_planets['doubtful']],
 		'Weapons': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'Woods': [pl.all_planets['bilk'], pl.all_planets['herringbone'], pl.all_planets['wreck'], pl.all_planets['crash']],
-		'Xmetals': [pl.all_planets['demolish'], pl.all_planets['bilk'], pl.all_planets['herringbone']],
+		'Xmetals': [pl.all_planets['demolish'], pl.all_planets['bilk'], pl.all_planets['herringbone'], pl.all_planets['implausible'], pl.all_planets['zaldrizes']],
 }
 
 
