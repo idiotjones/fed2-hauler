@@ -48,10 +48,10 @@ shell_commodity_sources = {
 		'Powerpacks': [pl.all_planets['doubtful'], pl.all_planets['improbable']],
 		'Probes': [pl.all_planets['doubtful']],
 		'Propellants': [pl.all_planets['doubtful'], pl.all_planets['anacreon']], # pl.all_planets['new street glide']],
-		'Proteins': [pl.all_planets['viand']],
+		'Proteins': [pl.all_planets['viand'], pl.all_planets['poveglia']],
 		'Radioactives': [pl.all_planets['doubtful'], pl.all_planets['valisk'], pl.all_planets['welch'], pl.all_planets['divide']], # , pl.all_planets['new street glide']
 		'RNA': [pl.all_planets['doubtful']],
-		'Semiconductors': [pl.all_planets['terminus'], pl.all_planets['doubtful']],
+		'Semiconductors': [pl.all_planets['terminus'], pl.all_planets['doubtful'], pl.all_planets['fisticuffs'], pl.all_planets['implausible'], pl.all_planets['welch'], pl.all_planets['divide']],
 		'Sensamps': [pl.all_planets['doubtful'], pl.all_planets['improbable']],
 		'Sensors': [pl.all_planets['anacreon'], pl.all_planets['doubtful'], pl.all_planets['newsgroup']],
 		'Simulations': [pl.all_planets['cinna'], pl.all_planets['eos']],
@@ -80,7 +80,7 @@ system_owners = {'shell': 'idiotjones',
 		'gulf': 'toadvine',}
 
 
-system_planets = {'shell': [pl.all_planets['improbable'], pl.all_planets['unlikely'], pl.all_planets['doubtful']],
+system_planets = {'shell': [pl.all_planets['improbable'], pl.all_planets['unlikely'], pl.all_planets['doubtful'], pl.all_planets['implausible'], pl.all_planets['dubious']],
 		'total': [pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'default': [pl.all_planets['welch'], pl.all_planets['bilk']],
 		'chevron': [pl.all_planets['herringbone']],

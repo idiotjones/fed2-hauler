@@ -3,6 +3,8 @@ all_planets = {
 	'improbable': planet('improbable', 'shell', 'shell', 'Improbable Landing Pad', ['out'], ['in'], ['w'], ['e'], [], []),
 	'unlikely': planet('unlikely', 'shell', 'shell', 'Unlikely Landing Pad', ['se', 'out'], ['in', 'nw'], ['w'], ['e'], [], []),
 	'doubtful': planet('doubtful', 'shell', 'shell', 'Doubtful Landing Pad', ['sw'], ['ne'], ['w'], ['e'], [], []),
+	'dubious': planet('dubious', 'shell', 'shell', 'Doubtful Landing Pad', ['nw'], ['se'], ['w'], ['e'], [], []),
+	'implausible': planet('implausible', 'shell', 'shell', 'Unlikely Landing Pad', ['ne', 'out'], ['in', 'sw'], ['w'], ['e'], [], []),
 
 	'welch': planet('welch', 'default', 'shell', 'This is the hub of Welch;', [], [], ['e'], ['w'], ['sw'], ['ne']),
 	'bilk': planet('bilk', 'default', 'shell', '', ['w'], ['e'], ['e'], ['w'], ['sw'], ['ne']),
@@ -35,6 +37,11 @@ all_planets = {
 	'vantek': planet('vantek', 'hof', 'ice', '...', ['sw'], ['ne'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u']),
 
 	'new street glide': planet('new street glide', 'bikes', 'ice', 'New Street Glide', [], [], ['n'], ['s'], ['e'], ['w']),
+	'ultra limited': planet('ultra limited', 'bikes', 'ice', 'Ultra Limited', ['s'], ['n'], ['sw'], ['ne'], ['s'], ['n']),
 
 	'valisk': planet('valisk', 'ombey', 'havefun', '...', [], [], ['s', 'e'], ['w', 'n'], ['w'], ['e']),
+
+	'poveglia':  planet('poveglia', 'meadows', 'havefun', '...', ['s', 'e', 'e'], ['w', 'w', 'n'], ['w'], ['e'], ['n', 'n'], ['s', 's'])
+	'goldenshoe':  planet('goldenshoe', 'meadows', 'havefun', '...', ['s', 'e'], ['w', 'n'], ['w'], ['e'], ['n', 'w', 'w', 'nw', 'n', 'n', 'n', 'e'], ['w', 's', 's', 's', 'se', 'e', 'e', 's'])
+	'fisticuffs':  planet('fisticuffs', 'meadows', 'havefun', '...', ['n', 'e'], ['w', 's'], ['w'], ['e'], [], [])
 	}
