@@ -34,7 +34,7 @@ shell_commodity_sources = {
 		'LubOils': [pl.all_planets['doubtful'], pl.all_planets['crash']],
 		'Meats': [pl.all_planets['helicon'], pl.all_planets['maminar'], pl.all_planets['maminar'], pl.all_planets['vantek'], pl.all_planets['vantek']],
 		'Mechparts': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['crash']],
-		'MicroScalpels': [pl.all_planets['doubtful']],
+		'MicroScalpels': [pl.all_planets['doubtful'], pl.all_planets['poveglia']],
 		'Monopoles': [pl.all_planets['santanni'], pl.all_planets['terminus']],
 		'Munitions': [pl.all_planets['doubtful'], pl.all_planets['crash']],
 		'Musiks': [pl.all_planets['improbable'], pl.all_planets['unlikely'], pl.all_planets['doubtful'], pl.all_planets['wreck']],
