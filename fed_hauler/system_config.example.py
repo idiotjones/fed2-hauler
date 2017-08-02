@@ -16,7 +16,7 @@ shell_commodity_sources = {
 		'Electros': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['unlikely'], pl.all_planets['wreck'], pl.all_planets['demolish']],
 		'Explosives': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['crash']],
 		'Firewalls': [pl.all_planets['improbable'], pl.all_planets['unlikely'], pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish']],
-		'Fruit': [pl.all_planets['santanni'], pl.all_planets['helicon']], # pl.all_planets['new street glide']],
+		'Fruit': [pl.all_planets['santanni'], pl.all_planets['helicon'], pl.all_planets['bilk'], pl.all_planets['herringbone'], pl.all_planets['fisticuffs'], pl.all_planets['zaldrizes']], # pl.all_planets['new street glide']],
 		'Furs': [pl.all_planets['terminus']], # pl.all_planets['new street glide']],
 		'Games': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish']],
 		'GAsChips': [pl.all_planets['demolish'], pl.all_planets['wreck'], pl.all_planets['unlikely'], pl.all_planets['crash'], pl.all_planets['doubtful']],
