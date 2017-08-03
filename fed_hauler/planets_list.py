@@ -31,6 +31,7 @@ all_planets = {
 	'cinna': planet('cinna', 'stars end', 'far star', '...', [], [], ['e'], ['w'], [], []),
 	'eos': planet('eos', 'stars end', 'far star', '...', ['w'], ['e'], ['e'], ['w'], [], []),
 
+	'email': planet('email', 'internet', 'internet', '...', ['w'], ['e'], ['e'], ['w'], ['s'], ['n']),
 	'newsgroup': planet('newsgroup', 'internet', 'internet', '...', ['s'], ['n'], ['e'], ['w'], ['sw'], ['ne']),
 	
 	'maminar': planet('maminar', 'hof', 'ice', '...', ['e'], ['w'], ['s', 's', 's'], ['n', 'n', 'n'], ['s', 's', 's'], ['n', 'n', 'n']),
