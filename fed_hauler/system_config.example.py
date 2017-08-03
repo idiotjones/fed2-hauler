@@ -59,7 +59,7 @@ shell_commodity_sources = {
 		'Spices': [pl.all_planets['terminus']],
 		'Studios': [pl.all_planets['doubtful'], pl.all_planets['unlikely'], pl.all_planets['wreck']],
 		'Synths': [pl.all_planets['doubtful']],
-		'Textiles': [pl.all_planets['santanni']], # pl.all_planets['new street glide']],
+		'Textiles': [pl.all_planets['santanni'], pl.all_planets['implausible'], pl.all_planets['bilk'], pl.all_planets['divide'], pl.all_planets['fisticuffs'], pl.all_planets['email']],
 		'Tools': [pl.all_planets['doubtful'], pl.all_planets['improbable'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'ToxicMunchers': [pl.all_planets['doubtful'], pl.all_planets['poveglia']],
 		'TQuarks': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish']],
