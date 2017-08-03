@@ -32,7 +32,7 @@ shell_commodity_sources = {
 		'Libraries': [pl.all_planets['anacreon'], pl.all_planets['unlikely'], pl.all_planets['crash']],
 		'Livestock': [pl.all_planets['santanni']], # pl.all_planets['new street glide']],
 		'LubOils': [pl.all_planets['doubtful'], pl.all_planets['crash']],
-		'Meats': [pl.all_planets['helicon'], pl.all_planets['maminar'], pl.all_planets['maminar'], pl.all_planets['vantek'], pl.all_planets['vantek']],
+		'Meats': [pl.all_planets['implausible'], pl.all_planets['divide'], pl.all_planets['bilk'], pl.all_planets['fisticuffs'], pl.all_planets['vantek']],
 		'Mechparts': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['crash']],
 		'MicroScalpels': [pl.all_planets['doubtful'], pl.all_planets['poveglia']],
 		'Monopoles': [pl.all_planets['santanni'], pl.all_planets['terminus']],
