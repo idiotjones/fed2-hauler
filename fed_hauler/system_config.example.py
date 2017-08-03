@@ -22,7 +22,7 @@ shell_commodity_sources = {
 		'GAsChips': [pl.all_planets['demolish'], pl.all_planets['wreck'], pl.all_planets['unlikely'], pl.all_planets['crash'], pl.all_planets['doubtful']],
 		'Generators': [pl.all_planets['unlikely'], pl.all_planets['doubtful'], pl.all_planets['herringbone']],
 		'Gold': [pl.all_planets['doubtful'], pl.all_planets['divide'], pl.all_planets['bilk'], pl.all_planets['welch']],
-		'Hides': [pl.all_planets['santanni'], pl.all_planets['herringbone']],
+		'Hides': [pl.all_planets['santanni'], pl.all_planets['herringbone'], pl.all_planets['fisticuffs'], pl.all_planets['bilk'], pl.all_planets['implausible']],
 		'Holos': [pl.all_planets['doubtful'], pl.all_planets['unlikely'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'Hypnotapes': [pl.all_planets['demolish'], pl.all_planets['doubtful'], pl.all_planets['unlikely'], pl.all_planets['crash']],
 		'Katydidics': [pl.all_planets['doubtful'], pl.all_planets['improbable'], pl.all_planets['demolish'], pl.all_planets['wreck'], pl.all_planets['crash']],
