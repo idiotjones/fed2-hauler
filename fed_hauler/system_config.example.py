@@ -54,7 +54,7 @@ shell_commodity_sources = {
 		'Semiconductors': [pl.all_planets['terminus'], pl.all_planets['doubtful'], pl.all_planets['fisticuffs'], pl.all_planets['implausible'], pl.all_planets['welch'], pl.all_planets['divide']],
 		'Sensamps': [pl.all_planets['doubtful'], pl.all_planets['improbable'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'Sensors': [pl.all_planets['anacreon'], pl.all_planets['doubtful'], pl.all_planets['newsgroup']],
-		'Simulations': [pl.all_planets['cinna'], pl.all_planets['eos'], pl.all_planets['wreck']],
+		'Simulations': [pl.all_planets['cinna'], pl.all_planets['eos'], pl.all_planets['wreck'], pl.all_planets['welch'], pl.all_planets['poveglia']],
 		'Soya': [pl.all_planets['santanni']], # pl.all_planets['new street glide']],
 		'Spices': [pl.all_planets['terminus']],
 		'Studios': [pl.all_planets['doubtful'], pl.all_planets['unlikely'], pl.all_planets['wreck']],
