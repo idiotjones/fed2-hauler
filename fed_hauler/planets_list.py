@@ -45,4 +45,6 @@ all_planets = {
 	'poveglia':  planet('poveglia', 'meadows', 'havefun', '...', ['s', 'e', 'e'], ['w', 'w', 'n'], ['w'], ['e'], ['n', 'n'], ['s', 's']),
 	'goldenshoe':  planet('goldenshoe', 'meadows', 'havefun', '...', ['s', 'e'], ['w', 'n'], ['w'], ['e'], ['n', 'w', 'w', 'nw', 'n', 'n', 'n', 'e'], ['w', 's', 's', 's', 'se', 'e', 'e', 's']),
 	'fisticuffs':  planet('fisticuffs', 'meadows', 'havefun', '...', ['n', 'e'], ['w', 's'], ['w'], ['e'], [], []),
+
+	'kittygarden':  planet('kittygarden', 'siamese', 'siamese', '...', ['in'], ['in'], ['e'], ['w'], ['n','n'], ['s', 's']), 
 	}
