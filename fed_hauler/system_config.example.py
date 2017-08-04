@@ -61,7 +61,7 @@ shell_commodity_sources = {
 		'Synths': [pl.all_planets['doubtful']],
 		'Textiles': [pl.all_planets['santanni'], pl.all_planets['implausible'], pl.all_planets['bilk'], pl.all_planets['divide'], pl.all_planets['fisticuffs'], pl.all_planets['email']],
 		'Tools': [pl.all_planets['doubtful'], pl.all_planets['improbable'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
-		'ToxicMunchers': [pl.all_planets['doubtful'], pl.all_planets['poveglia']],
+		'ToxicMunchers': [pl.all_planets['doubtful'], pl.all_planets['poveglia'], pl.all_planets['gervais']],
 		'TQuarks': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish']],
 		'Tracers': [pl.all_planets['viand'], pl.all_planets['crash']],
 		'Univators': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
