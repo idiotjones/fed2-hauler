@@ -40,7 +40,7 @@ shell_commodity_sources = {
 		'Musiks': [pl.all_planets['improbable'], pl.all_planets['unlikely'], pl.all_planets['doubtful'], pl.all_planets['wreck']],
 		'NanoFabrics': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish']],
 		'Nanos': [pl.all_planets['improbable'], pl.all_planets['unlikely'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
-		'Nickel': [pl.all_planets['helicon'], pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['crash']],
+		'Nickel': [pl.all_planets['helicon'], pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['crash'], pl.all_planets['welch']],
 		'Nitros': [pl.all_planets['improbable'], pl.all_planets['wreck'], pl.all_planets['crash']],
 		'Petrochemicals': [pl.all_planets['eos'], pl.all_planets['terminus'], pl.all_planets['crash']],
 		'Pharmaceuticals': [pl.all_planets['eos'], pl.all_planets['smyrno'], pl.all_planets['doubtful'], pl.all_planets['crash']],
@@ -48,7 +48,7 @@ shell_commodity_sources = {
 		'Powerpacks': [pl.all_planets['doubtful'], pl.all_planets['improbable'], pl.all_planets['demolish']],
 		'Probes': [pl.all_planets['doubtful']],
 		'Propellants': [pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['wreck']], # pl.all_planets['new street glide']],
-		'Proteins': [pl.all_planets['viand'], pl.all_planets['poveglia'], pl.all_planets['kittygarden']],
+		'Proteins': [pl.all_planets['viand'], pl.all_planets['poveglia'], pl.all_planets['kittygarden'], pl.all_planets['gervais']],
 		'Radioactives': [pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['welch'], pl.all_planets['divide']], # , pl.all_planets['new street glide']
 		'RNA': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'Semiconductors': [pl.all_planets['terminus'], pl.all_planets['doubtful'], pl.all_planets['fisticuffs'], pl.all_planets['implausible'], pl.all_planets['welch'], pl.all_planets['divide']],

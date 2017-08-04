@@ -47,4 +47,6 @@ all_planets = {
 	'fisticuffs':  planet('fisticuffs', 'meadows', 'havefun', '...', ['n', 'e'], ['w', 's'], ['w'], ['e'], [], []),
 
 	'kittygarden':  planet('kittygarden', 'siamese', 'siamese', '...', ['in'], ['in'], ['e'], ['w'], ['n','n'], ['s', 's']), 
+
+	'gervais':  planet('gervais', 'gaul', 'darkness', '...', ['n'], ['s'], ['w'], ['e'], [''], ['']),
 	}
