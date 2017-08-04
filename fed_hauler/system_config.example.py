@@ -46,7 +46,7 @@ shell_commodity_sources = {
 		'Pharmaceuticals': [pl.all_planets['eos'], pl.all_planets['smyrno'], pl.all_planets['doubtful'], pl.all_planets['crash']],
 		'Polymers': [pl.all_planets['anacreon'], pl.all_planets['crash']],
 		'Powerpacks': [pl.all_planets['doubtful'], pl.all_planets['improbable'], pl.all_planets['demolish']],
-		'Probes': [pl.all_planets['doubtful']],
+		'Probes': [pl.all_planets['doubtful'], pl.all_planets['gervais']],
 		'Propellants': [pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['wreck']], # pl.all_planets['new street glide']],
 		'Proteins': [pl.all_planets['viand'], pl.all_planets['poveglia'], pl.all_planets['kittygarden'], pl.all_planets['gervais']],
 		'Radioactives': [pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['welch'], pl.all_planets['divide']], # , pl.all_planets['new street glide']
