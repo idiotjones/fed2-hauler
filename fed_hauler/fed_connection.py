@@ -66,6 +66,7 @@ class fed_connection:
 		pass
 	
 	def verify_start_location(self):
+		self.send_command("brief")
 		loc = self.send_command("look")
 		if self.start_loc not in loc:
 			print "Not on the right start location"

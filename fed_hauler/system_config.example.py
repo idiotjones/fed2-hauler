@@ -64,7 +64,7 @@ shell_commodity_sources = {
 		'ToxicMunchers': [pl.all_planets['doubtful'], pl.all_planets['poveglia'], pl.all_planets['gervais']],
 		'TQuarks': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish']],
 		'Tracers': [pl.all_planets['viand'], pl.all_planets['crash']],
-		'Univators': [pl.all_planets['doubtful'], pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
+		'Univators': [pl.all_planets['wreck'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'Vidicasters': [pl.all_planets['unlikely'], pl.all_planets['improbable'], pl.all_planets['doubtful']],
 		'Weapons': [pl.all_planets['improbable'], pl.all_planets['doubtful'], pl.all_planets['demolish'], pl.all_planets['crash']],
 		'Woods': [pl.all_planets['bilk'], pl.all_planets['herringbone'], pl.all_planets['wreck'], pl.all_planets['crash']],
