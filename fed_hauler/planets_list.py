@@ -17,25 +17,25 @@ all_planets = {
 
 	'divide': planet('divide', 'gulf', 'shell', 'Divide is currently just another Magrathea-built rock', [], [], ['s', 'w'], ['e', 'n'], ['s', 's'], ['n', 'n']),
 
-	'viand': planet('viand', 'darkness', 'darkness', '...', ['w'], ['e'], ['e', 'n'], ['s', 'w'], [], []),
-	'vivid': planet('vivid', 'darkness', 'darkness', '...', ['n', 'n'], ['s', 's'], ['in', 'wear sunglasses', 'w'], ['e', 's', 'out'], [], []),
+#	'viand': planet('viand', 'darkness', 'darkness', '...', ['w'], ['e'], ['e', 'n'], ['s', 'w'], [], []),
+#	'vivid': planet('vivid', 'darkness', 'darkness', '...', ['n', 'n'], ['s', 's'], ['in', 'wear sunglasses', 'w'], ['e', 's', 'out'], [], []),
 	'disco ball': planet('disco ball', 'disco', 'darkness', '...', [], [], ['s', 'w'], ['e', 'n'], [], []),
 	'zaldrizes': planet('zaldrizes', 'dragon', 'darkness', '...', [], [], ['e'], ['w'], [], []),
 
-	'anacreon': planet('anacreon', 'far star', 'far star', '...', ['w'], ['e'], ['e'], ['w'], [], []),
-	'santanni': planet('santanni', 'far star', 'far star', '...', ['sw'], ['ne'], ['e'], ['w'], [], []),
-	'smyrno': planet('smyrno', 'far star', 'far star', '...', [], [], ['e'], ['w'], [], []),
-	'terminus': planet('terminus', 'far star', 'far star', '...', ['s'], ['n'], ['e'], ['w'], ['ne'], ['sw']),
+#	'anacreon': planet('anacreon', 'far star', 'far star', '...', ['w'], ['e'], ['e'], ['w'], [], []),
+#	'santanni': planet('santanni', 'far star', 'far star', '...', ['sw'], ['ne'], ['e'], ['w'], [], []),
+#	'smyrno': planet('smyrno', 'far star', 'far star', '...', [], [], ['e'], ['w'], [], []),
+#	'terminus': planet('terminus', 'far star', 'far star', '...', ['s'], ['n'], ['e'], ['w'], ['ne'], ['sw']),
 
-	'helicon': planet('helicon', 'stars end', 'far star', '...', ['s'], ['n'], ['e'], ['w'], [], []),
-	'cinna': planet('cinna', 'stars end', 'far star', '...', [], [], ['e'], ['w'], [], []),
-	'eos': planet('eos', 'stars end', 'far star', '...', ['w'], ['e'], ['e'], ['w'], [], []),
+#	'helicon': planet('helicon', 'stars end', 'far star', '...', ['s'], ['n'], ['e'], ['w'], [], []),
+#	'cinna': planet('cinna', 'stars end', 'far star', '...', [], [], ['e'], ['w'], [], []),
+#	'eos': planet('eos', 'stars end', 'far star', '...', ['w'], ['e'], ['e'], ['w'], [], []),
 
 	'email': planet('email', 'internet', 'internet', '...', ['w'], ['e'], ['e'], ['w'], ['s'], ['n']),
 	'newsgroup': planet('newsgroup', 'internet', 'internet', '...', ['s'], ['n'], ['e'], ['w'], ['sw'], ['ne']),
 	
-	'maminar': planet('maminar', 'hof', 'ice', '...', ['e'], ['w'], ['s', 's', 's'], ['n', 'n', 'n'], ['s', 's', 's'], ['n', 'n', 'n']),
-	'vantek': planet('vantek', 'hof', 'ice', '...', ['sw'], ['ne'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u']),
+#	'maminar': planet('maminar', 'hof', 'ice', '...', ['e'], ['w'], ['s', 's', 's'], ['n', 'n', 'n'], ['s', 's', 's'], ['n', 'n', 'n']),
+#	'vantek': planet('vantek', 'hof', 'ice', '...', ['sw'], ['ne'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u'], ['d', 'in', 'out', 'u']),
 
 	'new street glide': planet('new street glide', 'bikes', 'ice', 'New Street Glide', [], [], ['n'], ['s'], ['e'], ['w']),
 	'ultra limited': planet('ultra limited', 'bikes', 'ice', 'Ultra Limited', ['s'], ['n'], ['sw'], ['ne'], ['s'], ['n']),
